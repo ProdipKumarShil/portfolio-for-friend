@@ -59,7 +59,7 @@ const Navbar = () => {
                   className="h-5 w-5"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke="currentColor">
+                  stroke="white">
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -74,7 +74,8 @@ const Navbar = () => {
                 {myLinks}
               </ul>
             </div>
-            <a className="btn btn-ghost text-white text-xl">daisyUI</a>
+            {/* <a className="btn btn-ghost text-white text-xl">daisyUI</a> */}
+            <Link smooth to='#' className="lobster text-4xl font-medium text-transparent bg-clip-text bg-gradient-to-br  duration-1000 from-[#9A33FF] to-[#FF8660]">Redoy</Link>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">{myLinks}</ul>

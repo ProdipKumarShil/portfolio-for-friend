@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,4 +8,7 @@ body{
 }
 .nav-shadow{
   box-shadow: 0px 4.364px 16px -2.182px rgba(0, 0, 0, 0.10);
+}
+.lobster{
+  font-family: 'Lobster', sans-serif;
 }
