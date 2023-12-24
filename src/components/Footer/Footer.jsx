@@ -5,7 +5,7 @@ import insta from '../../assets/icons/insta.svg'
 
 const Footer = () => {
   return (
-    <div className="bg-[#191919]">
+    <div id='contact' className="bg-[#191919]">
       <div className="max-w-screen-xl mx-auto pt-20 px-3">
         <div className="max-w-[800px] mx-auto">
           <p className="text-[23px] mt-20 text-white font-semibold mb-[34px]">
@@ -21,10 +21,11 @@ const Footer = () => {
             <img src={mail} alt="" />
             <p className='text-[#C5C5C5]'>abmcodehub@gmail.com</p>
           </div>
-          <div className="flex gap-2 pb-[103px]">
+          <div className="flex gap-2 pb-[103px] items-center">
             <img src={x} alt="" />
             <img src={tube} alt="" />
             <img src={insta} alt="" />
+            {/* <p className='text-[#C5C5C5] text-[7px] ml-auto'>Develop by <a className='italic' href="">Prodip</a></p> */}
           </div>
         </div>
       </div>
